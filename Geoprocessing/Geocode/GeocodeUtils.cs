@@ -116,7 +116,7 @@ namespace Geocode
             await QueuedTask.Run(() =>
                {
                    // Construct point symbol
-                   symbol = SymbolFactory.Instance.ConstructPointSymbol(ColorFactory.Instance.RedRGB, 10.0, SimpleMarkerStyle.Star);
+                   symbol = SymbolFactory.Instance.ConstructPointSymbol(ColorFactory.Instance.BlueRGB, 10.0, SimpleMarkerStyle.Pushpin);
                });
 
             //Get symbol reference from the symbol 

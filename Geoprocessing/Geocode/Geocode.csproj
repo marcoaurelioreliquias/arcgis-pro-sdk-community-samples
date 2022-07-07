@@ -67,5 +67,10 @@
     <None Include="Geocode (C# 6.0).md" />
     <None Include="Geocode (C#).md" />
   </ItemGroup>
+  <ItemGroup>
+    <Page Update="RevGeocodeWindow.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
   <Import Project="C:\Program Files\ArcGIS\Pro\bin\Esri.ProApp.SDK.Desktop.targets" Condition="Exists('C:\Program Files\ArcGIS\Pro\bin\Esri.ProApp.SDK.Desktop.targets') AND !Exists('Esri.ArcGISPro.Extensions.targets')" />
 </Project>
